@@ -68,7 +68,7 @@ export async function PUT({ params, request }) {
     }
 }
 
-export async function DELETE({ params }) {
+export async function DELETE({ params, request }) {
 
     const authResponse = await auth(request);
     if (authResponse) return authResponse;
