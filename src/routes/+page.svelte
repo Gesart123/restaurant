@@ -1,7 +1,7 @@
 <script>
 	let {data} = $props();
 </script>
-<div>
+
 <h1>Restaurants in Shiroka</h1>
 <p>
 	All API endpoints are defined in the <code>src/routes/api</code> folder. Start with the
@@ -15,41 +15,35 @@
 	{/each}
 </ul>
 
-</div>
 
 <style>
-div {
-		font-family: Arial, sans-serif;
-		background-color: #F8F9FA;
-		color: #333;
-		margin: 0;
-		padding: 20px;
-		text-align: center;
-	}
 
-	
 	h1 {
 		background-color: #2C3E50;
 		color: #ECF0F1;
 		padding: 20px;
 		margin: 0;
 		border-radius: 5px;
+		text-align: center;
 	}
-	
+
 	
 	p {
 		color: #555;
 		margin: 15px 0;
+		text-align: center;
 	}
 
 	ul {
 		list-style: none;
 		padding: 0;
 		margin-top: 20px;
+		text-align: center;
 	}
 
 	li {
 		margin: 10px 0;
+		text-align: center;
 	}
 
 	a {
@@ -57,6 +51,7 @@ div {
 		text-decoration: none;
 		font-weight: bold;
 		transition: color 0.3s ease;
+		text-align: center;
 	}
 
 	a:hover {
